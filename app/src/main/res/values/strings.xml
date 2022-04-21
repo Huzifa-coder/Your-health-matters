@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Your Health Matters</string>
+    <string name="default_number_04" translatable="false">04</string>
+    <string name="weekly_avg">Weekly Average</string>
+    <string name="default_number_03" translatable="false">03</string>
+    <string name="daily_data">Daily Data</string>
+    <string name="day">Day</string>
+
+    <string name="limit_notification_channel_name">has been crossed the 25 min</string>
+    <string name="times_notified_today">Today\'s Notifications</string>
+\
+    <string name="limit_notification_channel_description">notifications today</string>
+    <string name="limit_notification_channel_name_prosses">Timer... </string>
+
+    <string-array name="dates" translatable="false">
+
+    </string-array>
+</resources>

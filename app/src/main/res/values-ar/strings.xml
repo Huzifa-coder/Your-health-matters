@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">صحتك تهمنا</string>
+    <string name="times_notified_today">تنبيهات اليوم</string>
+    <string name="weekly_avg">معد الأسبوع</string>
+    <string name="daily_data">البيانات اليومية</string>
+    <string name="day">اليوم</string>
+    <string name="limit_notification_channel_description">تم تجاوز حد ال25 دقيقة</string>
+    <string name="limit_notification_channel_name">تنبيهات اليوم</string>
+    <string name="limit_notification_channel_name_prosses">العداد...</string>
+</resources>
