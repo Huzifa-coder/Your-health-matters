@@ -34,8 +34,8 @@ public class NotificationUtils {
          */
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             // Define channel name and description
-            CharSequence name = context.getString(R.string.limit_notification_channel_name);
-            String description = context.getString(R.string.limit_notification_channel_description);
+            CharSequence name = context.getString(R.string.channel_name);
+            String description = context.getString(R.string.channel_description);
             // Create NotificationChannel object and set channel description
             NotificationChannel channel = new NotificationChannel(Limit_STATUS_CHANNEL_ID, name, NotificationManager.IMPORTANCE_DEFAULT);
             channel.setDescription(description);
@@ -53,7 +53,7 @@ public class NotificationUtils {
 
         // Notification Text
         String notificationText = context.getString(
-                R.string.times_notified_today);
+                R.string.limit_notified_today);
 
         NotificationCompat.Builder notificationBuilder
                 = new NotificationCompat.Builder(context, Limit_STATUS_CHANNEL_ID)

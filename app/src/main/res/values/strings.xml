@@ -6,11 +6,12 @@
     <string name="daily_data">Daily Data</string>
     <string name="day">Day</string>
 
-    <string name="limit_notification_channel_name">has been crossed the 25 min</string>
-    <string name="times_notified_today">Today\'s Notifications</string>
-\
-    <string name="limit_notification_channel_description">notifications today</string>
-    <string name="limit_notification_channel_name_prosses">Timer... </string>
+    <string name="limit_notified_today">has been crossed the 25 min</string>
+    <string name="channel_description">notifications today</string>
+    <string name="channel_name">Notifications</string>
+    <string name="title_notfiy">Todays notifications</string>
+    <string name="limit_prosses">Timer... </string>
+
 
     <string-array name="dates" translatable="false">
 

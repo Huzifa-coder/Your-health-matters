@@ -48,8 +48,8 @@ public class TimerIntentService extends Service {
 
         Notification notification =
                 new NotificationCompat.Builder(this, STATUS_CHANNEL_ID)
-                        .setContentTitle(getText(R.string.times_notified_today))
-                        .setContentText(getText(R.string.limit_notification_channel_name_prosses))
+                        .setContentTitle(getText(R.string.title_notfiy))
+                        .setContentText(getText(R.string.limit_prosses))
                         .setSmallIcon(R.drawable.ic_launcher_foreground)
                         .setContentIntent(pendingIntent)
                         .build();
