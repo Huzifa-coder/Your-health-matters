@@ -25,10 +25,10 @@ public class TimerUtils {
         // Create PeriodicWorkRequest to periodically sync weather data
         PeriodicWorkRequest periodicWorkRequest =
                 // Make this Worker repeated after specified interval
-                new PeriodicWorkRequest.Builder(TimerWorker.class, 1, TimeUnit.MINUTES)
+                new PeriodicWorkRequest.Builder(TimerWorker.class, 25, TimeUnit.MINUTES)
                         // Set the constraints
                         .setConstraints(constraints)
-                        .setInitialDelay(5, TimeUnit.MINUTES)
+                        .setInitialDelay(25, TimeUnit.MINUTES)
                         .addTag(tag)
                         // Call the builder's build method build the PeriodicWorkRequest
                         .build();
